@@ -1,0 +1,24 @@
+https://www.geeksforgeeks.org/binary-tree-set-1-introduction/
+https://www.baeldung.com/java-binary-tree
+
+
+> Unlike other data structures like array, stack, queue, and linked list which are linear in nature, 
+  a tree represents a hierarchical structure
+
+
+> left child is smaller than root
+> right child is larger than root	
+
+Big O notation:
+	* searching: O(log(N))
+	* insertion O(log(N))
+	* deletion: O(log(N))
+	
+	
+Why to use tree:
+> One reason to use trees might be because you want to store information that naturally 
+  forms a hierarchy. For example, the file system on a computer
+> Trees (with some ordering e.g., BST) provide moderate access/search (quicker than Linked List and slower than arrays). 
+> Trees provide moderate insertion/deletion (quicker than Arrays and slower than Unordered Linked Lists). 
+> Like Linked Lists and unlike Arrays, Trees don’t have an upper limit on the number of nodes as nodes are 
+   linked using pointers.

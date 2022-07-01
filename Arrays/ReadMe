@@ -1,0 +1,19 @@
+
+/*
+ * 6/26/22
+In this class will go over the basic concepts of arrays
+
+> Arrays in general is a set of (usually) same type elements/objects that ate stored under the same name.
+> In C, you have to specify the size during the compile time, meaning when you write the code
+> In C++ size can be determined either in compile time or run time(ask user for it)
+> benefits of it is to make search and sort easier because all stored in ""contiguous"" memory location
+  meaning if store char then the the addresses of each char move by one bit (see my note) 
+*/
+
+
+
+2d array
+
+
+
+https://beginnersbook.com/2014/01/2d-arrays-in-c-example/

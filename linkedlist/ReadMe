@@ -1,0 +1,50 @@
+https://www.programiz.com/java-programming/linkedlist
+https://www.geeksforgeeks.org/data-structures/linked-list/
+https://www.geeksforgeeks.org/linked-list-in-java/
+
+> A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations.
+ The elements in a linked list are linked using pointers 
+ 	* every element is a separate object with a data part and address part
+ 	* Each element is known as a node
+ 	* Good is that the size is dynamic and easy to add & delete
+ 	
+>  LinkedList acts as a dynamic array and we do not have to specify the size while creating it,
+    the size of the list automatically increases when we dynamically add and remove items
+ 
+ > In simple words, a linked list consists of nodes where each node contains a data field and a
+  reference(link) to the next node in the list.
+  
+> Due to the dynamicity and ease of insertions and deletions, they are preferred over the arrays. 
+
+> It also has a few disadvantages 
+	* like the nodes cannot be accessed directly instead we need to start from the head and follow 
+	  through the link to reach a node we wish to access.
+	  
+	  
+
+> Types of it:
+
+	* Simple:
+		* just one pointer to point to next node, last node point to null
+	* Circular:
+		* Just one pointer that points to next node, last node points to the first the head of the list
+	* Doubly linked list:
+		* https://www.geeksforgeeks.org/doubly-linked-list/
+		* each node had two pointers, one point to next one, and one point to the previous node
+		
+		
+		
+
+// create linkedlist using List
+List<String> animals1 = new LinkedList<>();
+
+// creating linkedlist using Queue
+Queue<String> animals2 = new LinkedList<>();
+
+// creating linkedlist using Deque
+Deque<String> animals3 = new LinkedList<>();
+
+
+>>>>Here, if the LinkedList is created using one interface, then we cannot use methods provided by other interfaces. 
+That is, animals1 cannot use methods specific to Queue and Deque interfaces.
+	

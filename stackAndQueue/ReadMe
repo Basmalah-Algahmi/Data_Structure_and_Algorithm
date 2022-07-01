@@ -1,0 +1,73 @@
+ >>>>>>>>STACK<<<<<<<<<<
+
+https://www.geeksforgeeks.org/stack-class-in-java/    (has all function for stack)
+
+> LIFO (Last in, first out)
+> Add to end (push)
+> remove from the end (pop)
+> print last element (peak)
+> search //It returns the position of the element from the top of the stack. Else, it returns -1.
+
+
+ >>>>>>>>QUEUE<<<<<<<<<<
+ 
+ https://www.geeksforgeeks.org/queue-interface-java/
+ 
+ > FIFO  (First in, first out)
+ > 
+ 
+ 
+ >>>>>>>QUEUE<<<<<<<<,
+ 
+ https://www.geeksforgeeks.org/queue-interface-java/
+ 
+ >FIFO  (First in, first out)
+ > Being an interface the queue needs a concrete class for the declaration and the most 
+ common classes are the PriorityQueue and LinkedList in Java. Note that neither of these implementations 
+ is thread-safe. PriorityBlockingQueue is one alternative implementation if the thread-safe implementation is needed.
+ 
+> What are the 3 primary methods for a queue?
+	* The basic queue operations are: enqueue—adds an element to the end of the queue. 
+	* dequeue—removes an element from the front of the queue. 
+	* first—returns a reference to the element at the front of the queue.
+	
+> types of queue:
+https://www.geeksforgeeks.org/different-types-of-queues-and-its-applications/
+
+	* Input Restricted Queue (this is a Simple Queue)
+	* Output Restricted Queue (this is also a Simple Queue)
+		> the input can be taken from both sides(rear and front) 
+		> the deletion of the element can be done from only one side(front)
+	* Circular Queue
+		> last position is connected back to the first position to make a circle. It is also called ‘Ring Buffer’
+		> Applications:
+			* Memory Management:
+					>> The unused memory locations in the case of ordinary queues can be utilized in circular queues.
+			* Traffic system: 
+					>> In a computer-controlled traffic system, circular queues are used to switch on the traffic
+					   lights one by one repeatedly as per the time set.
+			* CPU Scheduling: 
+					>> Operating systems often maintain a queue of processes that are ready to execute or 
+					   that are waiting for a particular event to occur ( WE TOOK THAT IN 450, YEAAA)
+	* Double Ended Queue (Deque)
+		>  insertion and deletion operations are performed at both the ends (front and rear)
+	* Priority Queue
+		> Ascending Priority Queue: Element can be inserted arbitrarily but only smallest element can be removed.
+		 For example, suppose there is an array having elements 4, 2, 8 in the same order.
+		 So, while inserting the elements, the insertion will be in the same sequence but while deleting, 
+		 the order will be 2, 4, 8.
+		> Descending priority Queue: Element can be inserted arbitrarily but only the largest element can be 
+		removed first from the given Queue. For example, suppose there is an array having elements 4, 2, 8 in 
+		the same order. So, while inserting the elements, the insertion will be in the same sequence but while deleting, 
+		the order will be 8, 4, 2.
+	* Ascending Priority Queue
+
+> Applications of a Queue:
+
+	* The queue is used when things don’t have to be processed immediately, but have to be processed in First In First Out order
+	 like Breadth First Search. This property of Queue makes it also useful in the following kind of scenarios.
+			>>  When a resource is shared among multiple consumers. Examples include CPU scheduling, Disk Scheduling.
+			>> When data is transferred asynchronously (data not necessarily received at the same rate as sent) 
+			between two processes. Examples include IO Buffers, pipes, file IO, etc.
+
+
