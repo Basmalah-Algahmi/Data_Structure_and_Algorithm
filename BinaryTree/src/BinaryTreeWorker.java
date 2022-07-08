@@ -14,8 +14,9 @@ class Node
 }
 class BinaryTree
 {
-    Node head;
+    Node head; //the root of the tree
     Scanner input = new Scanner(System.in);
+    //constructor
     BinaryTree()
     {
         head = null;
